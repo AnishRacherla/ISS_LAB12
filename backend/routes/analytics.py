@@ -26,7 +26,8 @@ async def get_analytics():
     async for item in items_collection.find():
         items.append(item)
     # damm this is the last lab
-    users = ["A1","B2","C3"]
+    users = []      
+    # Here there is a mixing  of strings and dictionaries in the users list, causing a type error when using dictionary keys on strings.
     async for user in users_collection.find():
         users.append(user)
     
