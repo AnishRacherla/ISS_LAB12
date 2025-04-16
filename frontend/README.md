@@ -33,7 +33,8 @@
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
-| 2   |                                          |               |              |
+| 2   | in profile.html path for profile.js is   
+        wrong                                    | Sashangh Dr   | Sashangh DR  |
 | 3   |                                          |               |              |
 | 4   |                                          |               |              |
 | 5   |                                          |               |              |
