@@ -56,11 +56,11 @@
 | 12  |        added navigation bar to analytics                                 |         anish.r      |              |anish.r
 | 13  |     Duplicate route method:
 @router.post("/") → @router.get("/") for the get_users function.                                     |      abhinav         |    abhinav          |
-| 14  |          Wrapped ObjectId(user_id) in a try-except block to handle invalid IDs.                                |        abhinav       |   abhinav           |
-| 15  |                                          |               |              |
-| 16  |                                          |               |              |
-| 17  |                                          |               |              |
-| 18  |                                          |               |              |
+| 14  |          Wrapped ObjectId(user_id) in a try-except block to handle invalid IDs.                                |        abhinav       |   abhinavANishRA           |
+| 15  |   in models.py data type changed from int to string                                       |  vikhyath             |         vikhyath     |
+| 16  |   in user.py changed from delete_all to delete one                                       |        vikhyath       |          vikhyath    |
+| 17  |    in quiz.html added missing viewport error                                     |       vikhyath        |         vikhyath     |vikhyath
+| 18  |     in profilejs changed element id mismatch usercount to usercounts                                     |    vikhyath           |   vikhyath           |
 | 19  |                                          |               |              |
 | 20  |                                          |               |              |
 | 21  |                                          |               |              |

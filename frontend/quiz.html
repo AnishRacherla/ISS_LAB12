@@ -4,14 +4,20 @@
   <meta charset="UTF-8" />
   <title>Bash Quiz</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- ✅ Fix: Responsive layout -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="items.html">Items</a>
-    <a href="profile.html">Profile</a>
-    <a href="quiz.html">Quiz</a>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="items.html">📦 Items</a></li>
+      <li><a href="analytics.html">📊 Analytics</a></li>
+      <li><a href="quiz.html" class="active">🧠 Quiz</a></li>
+    </ul>
   </nav>
+
   <div class="container">
     <h1>🧠 Bash Quiz</h1>
     <p id="scoreDisplay">Score: 0 | High Score: 0</p>
@@ -23,6 +29,7 @@
     <p id="attemptCount">Total attempts: 0</p>
     <div id="attemptList" class="attempt-scrollable"></div>
   </div>
+
   <script src="scripts/quiz.js"></script>
 </body>
 </html>
