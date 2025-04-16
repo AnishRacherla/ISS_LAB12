@@ -39,10 +39,12 @@
 | 4   |                                          |               |              |
 | 5   | in items.py changed router={} to 
         APIRouter                                | Sashangh Dr   | Sashangh Dr  |
-| 6   |                                          |               |              |
-| 7   |                                          |               |              |
-| 8   |                                          |               |              |
-| 9   |                                          |               |              |
+| 6   |   main.py(added prefixes)                |     anish.r       |   anish.r           |
+| 7   |   main.py(added "/")                            anish.r    |       anish.r|
+| 8   |    main.py (allowed it to work with fastapi)                                      |         anish      |              |anish
+| 9   |             There is a mxing of strings and dictionaries 
+        in the list , so I modified that
+        by, using users[]                             |    ABHINAV           |     ABHINAV         |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |
