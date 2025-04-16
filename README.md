@@ -37,7 +37,7 @@
 | 3   |                                          |               |              |
 | 4   | There is a mxing of strings and dictionaries 
         in the list , so I modified that
-        by using users[].                                       |   Abhinav        |      Abhinav        |
+        by, using users[].                                       |   Abhinav        |      Abhinav        |
 | 2   | in profile.html path for profile.js is   
         wrong                                    | Sashangh Dr   | Sashangh DR  |
 | 3   | add a new container in items.html        | Sashangh Dr   | Sashangh Dr  |
