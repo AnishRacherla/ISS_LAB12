@@ -26,7 +26,11 @@
 
 ### Add the names of the members and roll numbers of your team below
 
-- Name : Roll Number
+- Name : ANISH.R(2024101046),
+        VIKHYATH(2024101050)
+        ABHINAV.CH(2024101027)
+        SASHANGH(2024101069)
+        HAVISH(2024101092)
 
 ### Table to keep track
 
@@ -45,11 +49,14 @@
 | 9   |             There is a mxing of strings and dictionaries 
         in the list , so I modified that
         by, using users[]                             |    ABHINAV           |     ABHINAV         |
-| 10  |                                          |               |              |
-| 11  |                                          |               |              |
-| 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  |                                          |               |              |
+| 10  |       There is a mxing of strings and dictionaries 
+        in the list , so I modified that
+        by, using users[].                                   |      abhinav         |     abhinav         |
+| 11  |         added the quiz.html to navigation bar                                |               |    anish.r       |anish.r
+| 12  |        added navigation bar to analytics                                 |         anish.r      |              |anish.r
+| 13  |     Duplicate route method:
+@router.post("/") → @router.get("/") for the get_users function.                                     |      abhinav         |    abhinav          |
+| 14  |          Wrapped ObjectId(user_id) in a try-except block to handle invalid IDs.                                |        abhinav       |   abhinav           |
 | 15  |                                          |               |              |
 | 16  |                                          |               |              |
 | 17  |                                          |               |              |
