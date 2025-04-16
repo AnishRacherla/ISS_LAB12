@@ -1,9 +1,9 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Request  # added Request to fix error 1
 import random
 
 router = APIRouter(tags=["quiz"])
 
-# I actually could have added this to a collection in mongodb
+
 questions = [
     {
         "id": 1,
@@ -38,7 +38,7 @@ questions = [
 ]
 
 game_state = {"high_score": 0}
-# god would hate me for not dockerizing this repo
+
 @router.get("/question")
 async def get_question():
     question = questions[1]
@@ -48,11 +48,13 @@ async def get_question():
         "options": question["options"]
     }
 
+# fixed error: GET request can't receive body, so read from query manually
 @router.get("/answer")
-async def submit_answer(data: dict):
-    question_id = data.get("id")
-    answer = data.get("answer")
-    score = data.get("score", 0)
+async def submit_answer(request: Request): 
+    params = request.query_params
+    question_id = int(params.get("id"))
+    answer = params.get("answer")
+    score = int(params.get("score", 0))
 
     question = next((q for q in questions if q["id"] == question_id), None)
     if not question:
