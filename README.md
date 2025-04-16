@@ -35,7 +35,9 @@
 | 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
 | 2   |                                          |               |              |
 | 3   |                                          |               |              |
-| 4   |                                          |               |              |
+| 4   | There is a mxing of strings and dictionaries 
+        in the list , so I modified that
+        by using users[].                                       |   Abhinav        |      Abhinav        |
 | 5   |                                          |               |              |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
