@@ -35,9 +35,10 @@
 | 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
 | 2   | in profile.html path for profile.js is   
         wrong                                    | Sashangh Dr   | Sashangh DR  |
-| 3   |                                          |               |              |
+| 3   | add a new container in items.html        | Sashangh Dr   | Sashangh Dr  |
 | 4   |                                          |               |              |
-| 5   |                                          |               |              |
+| 5   | in items.py changed router={} to 
+        APIRouter                                | Sashangh Dr   | Sashangh Dr  |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
